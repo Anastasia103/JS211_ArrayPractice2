@@ -70,17 +70,6 @@ for (people of arrayOfPersons){
     console.log(true)
     }
 }
-function canYouDrink(date){
-let today = new Date()
-let birthDate = new Date(date)
-let age = today - birthDate
-if (age > 21) {
-    return true
-}
-else{
-    return false
-}
-}
 
 // Is the date older than 21
 function getAge(dateString) 
